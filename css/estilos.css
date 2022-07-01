@@ -1,0 +1,29 @@
+*{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media (max-width: 800px) {
+ 
+    .bloquesForm{
+      
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+      background-color: rgb(158, 157, 157);
+    }
+    .formulario{
+        min-width: 90%; 
+    }
+    
+    
+    
+      }
+
+.fas{
+    background-color: rgb(219, 97, 97);
+    font-weight: bold;
+}
+.fes{
+    background-color: rgb(122, 233, 107);
+    font-weight: bold; 
+}
