@@ -1,6 +1,7 @@
 /* Declaracion de variables */
 let fecha = document.getElementById("fecha");
 let valorBruto = document.getElementById("bruto");
+let montoFijo = document.getElementById("montoFijo");
 
 let luz = document.getElementById("luz");
 let gas = document.getElementById("gas");
@@ -32,7 +33,7 @@ let mensajeCorrecto = document.getElementById("mensajeValidacionCorrecto");
 let icono = document.getElementById("iconito");
 /* SUMA PARCIAL */
 
-
+montoFijo.value= 94383 ;
 
 
 botonEnviar.addEventListener("click", () => {
